@@ -1,0 +1,11 @@
+public class Employee {
+    private final String id;
+    private final String name;
+    private int totalLeaveDays;
+    private int usedLeaveDays;
+   public Employee(String id, String name, int totalLeaveDays) {
+        this.id = id;
+        this.name = name;
+        this.totalLeaveDays = totalLeaveDays;
+    }
+}
